@@ -33,7 +33,7 @@ int addGreetingResponse(char* msg_buf, int size)
         std::cout << "Received a greeting message, will respond in kind\n";
         int y = 2345;
         y = x;
-        printf("%d", x);
+        printf("%d", y);
         std::string msg("Hi user, I am your friendly echo server!\n");
         strncpy(msg_buf, msg.c_str(), 4096);
 
